@@ -1,0 +1,15 @@
+/*setTimer :La fonction setTimeout est une fonction native de JavaScript utilisée 
+pour exécuter une fonction ou un morceau de code après un certain délai spécifié.
+ Elle est souvent utilisée pour retarder l'exécution d'un code sans bloquer l'exécution
+  du reste du programme. 
+  setTimeout(function, delay);
+
+  setTimeout(() => {
+    console.log("Cette ligne s'affiche après 2 secondes.");
+  }, 2000);*/
+  //*************************************************** */
+  /*La fonction setInterval est une autre fonction native de JavaScript utilisée pour exécuter une fonction ou un morceau de code de manière répétée à des intervalles de temps spécifiés. Contrairement à setTimeout qui exécute le code une seule fois après un délai, setInterval 
+  continue d'exécuter le code à des intervalles réguliers jusqu'à ce qu'il soit arrêté.
+  
+  setInterval(function, delay);
+*/

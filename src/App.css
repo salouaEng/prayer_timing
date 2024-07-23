@@ -1,0 +1,85 @@
+/* app.css */
+
+/* Root variables for colors and fonts */
+:root {
+  --background-color: rgba(62, 61, 61, 0.897);
+  --primary-color: #dedae2;
+  --secondary-color: #03dac6;
+  --text-color: #ffffff;
+  --text-secondary-color: #b0b0b0;
+  --font-family: 'Roboto', sans-serif;
+}
+
+/* General styles */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+h1, h2 {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+/* Prayer card styles */
+.prayer-card {
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.prayer-card:hover {
+  transform: scale(1.05);
+}
+
+.prayer-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.prayer-card h2 {
+  color: var(--secondary-color);
+}
+
+/* Select styles */
+.form-control {
+  width: 20%;
+  margin-top: 20px;
+}
+
+.select {
+  color: var(--text-color);
+  background-color: var(--background-color);
+  border: 1px solid var(--primary-color);
+}
+
+.select .MuiInputLabel-root {
+  color: var(--primary-color);
+}
+
+.select .MuiSelect-root {
+  color: var(--text-color);
+}
+
+/* Additional styles */
+.grid-container {
+  padding: 20px;
+}
