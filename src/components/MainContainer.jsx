@@ -65,9 +65,7 @@ export default function MainContainer() {
 		};
 	}, [timings]);
 
-	// const data = await axios.get(
-	// 	"https://api.aladhan.com/v1/timingsByCity?country=SA&city=Riyadh"
-	// );
+	
 
 	const setupCountdownTimer = () => {
 		const momentNow = moment();
@@ -141,7 +139,7 @@ export default function MainContainer() {
 
 	return (
 		<>
-			{/* TOP ROW */}
+			
 			<Grid container>
 				<Grid xs={6}>
 					<div>
@@ -159,11 +157,10 @@ export default function MainContainer() {
 					</div>
 				</Grid>
 			</Grid>
-			{/*== TOP ROW ==*/}
+		
 
 			<Divider style={{ borderColor: "white", opacity: "0.1" }} />
 
-			{/* PRAYERS CARDS */}
 			<Stack
 				direction="row"
 				justifyContent={"space-around"}
@@ -195,9 +192,7 @@ export default function MainContainer() {
 					image="https://wepik.com/api/image/ai/9a07bc25-1200-4873-8743-1c370e9eff4d"
 				/>
 			</Stack>
-			{/*== PRAYERS CARDS ==*/}
-
-			{/* SELECT CITY */}
+			
 			<Stack
 				direction="row"
 				justifyContent={"center"}
